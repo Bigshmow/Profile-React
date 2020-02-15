@@ -1,0 +1,29 @@
+.hiddenBig {
+    display: none;
+  }
+
+.main {
+  min-height: 100vh;
+  margin-top: -80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectImg {
+    height: 300px;
+    width: 350px;
+  }
+
+  @media screen and (max-width:450px){
+
+    .hiddenBig {
+      display: inherit;
+    }
+
+    .hiddenMedia {
+      display: none;
+      color: '#F2FEFF'
+    }
+    
+  }
