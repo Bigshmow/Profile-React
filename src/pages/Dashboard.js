@@ -11,7 +11,7 @@ export const Dashboard = props => {
       <Container>
         <Row className="main">
           <Col xs='12' md='5' className='profile'>
-              <img className='' src='../assets/circle_profile.png' alt='Profile' />
+              <img className='profile' src={require("../assets/circle_profile.png")} alt='Profile' />
           </Col>
           <Col xs='12' md='6' className=''>
             <div className='text-right hiddenMedia'>
