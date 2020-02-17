@@ -17,7 +17,7 @@ export const Dashboard = props => {
             <div className='text-right hiddenMedia'>
               <h1>Hello!</h1>
               <p>You've reached the portfolio page for Devin Stewart.</p>
-              <p>MERN stack developer seeking a junior engineer position.</p>
+              <p>MERN stack developer.</p>
               <i>(part-time mountainbiker and avid gamer)</i>
             </div>
           </Col>
