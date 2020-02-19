@@ -1,10 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Contact } from './Contact';
 import { Container, Row, Col } from 'reactstrap';
 import { Portfolio } from './Portfolio';
+import { Topnav } from '../components/Topnav';
 import '../styles.css';
 
 export const Dashboard = props => {
+
+  let findPortfolio = Topnav();
+  console.log(findPortfolio.props.children.props.children[1].props.children[1].props.children.props.children[1].props.children.props.children)
+
+  // const [scrollHere, setScrollHere] = useState(customHook.props.children[1])
+  // console.log(scrollHere)
+
+  // let scrollID = "Contact"
+  // // customHook.props.children[1];
+  
+  // const handleScroll = () => {
+  //   setScrollHere(scrollID)
+  //   const x = document.getElementById(scrollID)
+  //   console.log("this is logged across comps: ", scrollID)
+  //   x.scrollIntoView();
+  // }
+  
+  // useEffect(
+  //   () => {
+  //   handleScroll();
+  // },[handleScroll])
+
   return (
 
     <div>
@@ -23,12 +46,12 @@ export const Dashboard = props => {
           </Col>
         </Row>
         <br></br>
-        <Row className="main">
+        <Row className="main" id='Portfolio'>
             <Col xs='12' md='12' className=''>
               <Portfolio />
             </Col>
         </Row>            
-        <Row className="main">
+        <Row className="main" id='Contact'>
             <Col xs='12' md='12' className=''>
               <Contact />
             </Col>

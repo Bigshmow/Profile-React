@@ -6,7 +6,7 @@ import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <BrowserRouter basename="/Portfolio">
+  <BrowserRouter>
     <App />
   </BrowserRouter>,
   document.getElementById('root'),
