@@ -1,7 +1,9 @@
 .hiddenBig {
     display: none;
   }
-
+.containerChop {
+  overflow-x: hidden;
+}
 .main {
   min-height: 100vh;
   margin-top: -80px;

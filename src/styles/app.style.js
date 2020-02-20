@@ -35,7 +35,6 @@ const handleMedia = (mq) => {
     s.topnav = {
       zIndex: '0',
       position: 'sticky',
-      marginRight: '-80px',
       marginLeft: '0px'
     }
   } else {
@@ -51,7 +50,6 @@ const handleMedia = (mq) => {
       fontWeight: '300',
       zIndex: '0',
       marginLeft: '80px',
-      marginRight: '-60px'
     };
       
       s.sidebar = {

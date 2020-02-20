@@ -8,8 +8,8 @@ export const Dashboard = props => {
 
   return (
 
-    <div>
-      <Container>
+    <div className="containerChop">
+      <Container className="containerChop">
         <Row className="main">
           <Col xs='12' md='5' className='profile'>
               <img className='profile' src={require("../assets/circle_profile.png")} alt='Profile' />
