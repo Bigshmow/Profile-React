@@ -6,7 +6,6 @@ import '../styles.css';
 export const Topnav = (props) => {
 
   const [focusScroll, setFocusScroll] = useState("")
-
   const handleScroll = (ele) => {
     setFocusScroll(ele)
     return focusScroll
