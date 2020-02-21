@@ -9,28 +9,21 @@ export const Topnav = (props) => {
     switch (ele) {
       case "About":
         let about = document.getElementById("Profile")
-        about.scrollIntoView()
+        about.scrollIntoView({behavior:"smooth"})
         break;
       case "Contact":
         let cont = document.getElementById("Contact")
-        cont.scrollIntoView()
+        cont.scrollIntoView({behavior:"smooth"})
         break;
       case "Portfolio":
         let port = document.getElementById("Portfolio")
-        port.scrollIntoView()
+        port.scrollIntoView({behavior:"smooth"})
         break;
       case "Resume":
-        // const resu = document.getElementById("Resume")
-        // resu.scrollIntoView()
         alert("No Resume link just yet!")
         break;
-    
       default:
         break;
-    }
-    if (ele === "Portfolio"){
-      const port = document.getElementById("Portfolio")
-      port.scrollIntoView()
     }
   }
 
