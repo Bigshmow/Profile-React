@@ -1,19 +1,38 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {Collapse,Navbar,NavbarToggler,NavbarBrand,Nav,NavItem,NavLink} from 'reactstrap';
 import s from '../styles/app.style';
 import '../styles.css';
 
 export const Topnav = (props) => {
 
-  const [focusScroll, setFocusScroll] = useState("")
   const handleScroll = (ele) => {
-    setFocusScroll(ele)
-    return focusScroll
+    switch (ele) {
+      case "About":
+        let about = document.getElementById("Profile")
+        about.scrollIntoView()
+        break;
+      case "Contact":
+        let cont = document.getElementById("Contact")
+        cont.scrollIntoView()
+        break;
+      case "Portfolio":
+        let port = document.getElementById("Portfolio")
+        port.scrollIntoView()
+        break;
+      case "Resume":
+        // const resu = document.getElementById("Resume")
+        // resu.scrollIntoView()
+        alert("No Resume link just yet!")
+        break;
+    
+      default:
+        break;
+    }
+    if (ele === "Portfolio"){
+      const port = document.getElementById("Portfolio")
+      port.scrollIntoView()
+    }
   }
-
-  useEffect(() =>{
-    console.log("This is the id: ", focusScroll)
-  },[focusScroll])
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -27,13 +46,13 @@ export const Topnav = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/about">About</NavLink>
+              <NavLink onClick={e => handleScroll("About")}>About</NavLink>
             </NavItem>
             <NavItem>
               <NavLink onClick={e => handleScroll("Portfolio")}>Portfolio</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/resume">Resume</NavLink>
+              <NavLink onClick={e => handleScroll("Resume")}>Resume</NavLink>
             </NavItem>
             <NavItem>
               <NavLink onClick={e => handleScroll("Contact")}>Contact</NavLink>

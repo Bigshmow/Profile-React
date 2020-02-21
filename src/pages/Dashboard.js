@@ -10,7 +10,7 @@ export const Dashboard = props => {
 
     <div>
       <Container>
-        <Row className="main">
+        <Row className="main" id='Profile'>
           <Col xs='12' md='5' className='profile'>
               <img className='profile' src={require("../assets/circle_profile.png")} alt='Profile' />
           </Col>
