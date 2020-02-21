@@ -6,18 +6,19 @@ import '../styles.css';
 export const Topnav = (props) => {
 
   const handleScroll = (ele) => {
+    const scroller = (id) => {
+      let component = document.getElementById(id);
+      component.scrollIntoView({behavior:"smooth"});
+    }
     switch (ele) {
       case "About":
-        let about = document.getElementById("Profile")
-        about.scrollIntoView({behavior:"smooth"})
+        scroller("Profile")
         break;
       case "Contact":
-        let cont = document.getElementById("Contact")
-        cont.scrollIntoView({behavior:"smooth"})
+        scroller("Contact")
         break;
       case "Portfolio":
-        let port = document.getElementById("Portfolio")
-        port.scrollIntoView({behavior:"smooth"})
+        scroller("Portfolio")
         break;
       case "Resume":
         alert("No Resume link just yet!")
