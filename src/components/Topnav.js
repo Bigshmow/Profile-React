@@ -7,8 +7,7 @@ export const Topnav = (props) => {
 
   const handleScroll = (ele) => {
     const scroller = (id) => {
-      let component = document.getElementById(id);
-      component.scrollIntoView({behavior:"smooth"});
+      document.getElementById(id).scrollIntoView({behavior:"smooth"});
     }
     switch (ele) {
       case "About":
