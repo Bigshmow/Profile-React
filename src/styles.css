@@ -2,6 +2,29 @@
     display: none;
   }
 
+.highImg {
+    height: 180px;
+    width: 240px;
+    transition: width 1s, height 1s;
+  }
+
+  .highImg:hover {
+    height: 240px;
+    width: 280px;
+  }
+
+.highCard {
+    max-height: 75vh;
+}
+
+.cardLink {
+  color: black;
+}
+
+.cardLink:hover {
+  color: rgba(0, 0, 0, 0.802);
+}
+
 .main {
   min-height: 100vh;
   margin-top: -80px;
@@ -19,7 +42,7 @@
 
 .projectImg {
     height: 300px;
-    width: 350px;
+    width: 346px;
   }
 
   @media screen and (max-width:450px){

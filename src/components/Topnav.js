@@ -17,7 +17,7 @@ export const Topnav = (props) => {
         scroller("Contact")
         break;
       case "Portfolio":
-        scroller("Portfolio")
+        scroller("Highlights")
         break;
       case "Resume":
         alert("No Resume link just yet!")

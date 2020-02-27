@@ -4,9 +4,9 @@ import '../styles.css';
 
 export const Projectcard = props => (
     <Fragment>
-        <Card>
-            <Row className='d-flex align-items-center'>
-                <Col xs='12' sm='5' className=''>
+        <Card className='d-flex'>
+            <Row>
+                <Col xs='12' sm='6' className=''>
                     <img className='projectImg' src={props.src} alt='Project'></img>
                 </Col>
                 <Col xs='12' sm='6' className='text-center'>

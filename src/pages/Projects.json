@@ -62,7 +62,7 @@
         "header": "Cart to Kitchen",
         "link": "https://zuzanav.github.io/cart-to-kitchen",
         "git": "https://github.com/Zuzanav/cart-to-kitchen ",
-        "desc": "Search for recipes, add them to your favorites, locate nearby stores and check off your grocery list."
+        "desc": "Search for recipes, add to favorites, locate nearby stores and check off your list."
     },
     {
         "alt": "LIRI",
@@ -105,6 +105,22 @@
         "link": "https://bigshmow.github.io/Clicky-state-game",
         "git": "https://github.com/Bigshmow/Clicky-state-game ",
         "desc": "Click and memorize, using React"
+    },
+    {
+        "alt": "Plant Parenthood",
+        "src": "https://i.imgur.com/2Hd9cuP.jpg",
+        "header": "Plant Parenthood",
+        "link": "https://plantparenthood.herokuapp.com/",
+        "git": "https://github.com/ppgeyser/plant-parenthood ",
+        "desc": "Discover, manage, post to social in this plant centric app aimed at beginners."
+    },
+    {
+        "alt": "Vacation Countdown",
+        "src": "https://i.imgur.com/VQ03NFt.jpg",
+        "header": "Vacation Countdown",
+        "link": "https://vacation-countdown-shmow.herokuapp.com/",
+        "git": "https://github.com/Bigshmow/Vacation-Countdown ",
+        "desc": "Mobile focused, keep track of to dos and countdown to your vacation!"
     }
 
 ]

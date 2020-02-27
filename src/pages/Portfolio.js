@@ -1,11 +1,12 @@
 import React, { useState, Fragment } from 'react';
+import { Col } from 'reactstrap';
 import { Projectcard } from '../components/Projectcard';
 
 export const Portfolio = (props) => { 
   
   const Projects = require('./Projects.json')
 
-  const [random, setRandom] = useState(7);
+  const [random, setRandom] = useState(10);
 
   const randNorepeat = () => {
     let newNum = (Math.floor(Math.random() * Projects.length))
@@ -15,10 +16,10 @@ export const Portfolio = (props) => {
       setRandom ((Math.floor(Math.random() * Projects.length)))
     }
   }
-      
       return (
       
       <Fragment>
+        <Col xs='12' md='12' className=''>
         <Projectcard
         src = {Projects[random].src}
         header = {Projects[random].header}
@@ -28,8 +29,9 @@ export const Portfolio = (props) => {
         >
         </Projectcard>
           <button onClick={randNorepeat}>
-            Find another project
+            Feeling lucky???
           </button>
+        </Col>
       </Fragment>
         )
       };
