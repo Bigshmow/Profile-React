@@ -20,7 +20,7 @@ export const Dashboard = props => {
               <h1>Hello!</h1>
               <p>You've reached the portfolio page for Devin Stewart.</p>
               <p>MERN stack developer.</p>
-              <i>(part-time mountainbiker and game enthusiast)</i>
+              <i>(part-time mountainbiker and car enthusiast)</i>
             </div>
           </Col>
         </Row>
