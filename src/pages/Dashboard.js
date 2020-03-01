@@ -32,11 +32,11 @@ export const Dashboard = props => {
         <Row className="main2" id='Portfolio'>
           <Portfolio />
         </Row>            
-        <Row className="main2" id='Contact'>
+        {/* <Row className="main2" id='Contact'>
           <Col xs='12' md='12' className=''>
             <Contact />
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );

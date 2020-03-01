@@ -13,9 +13,9 @@ export const Topnav = (props) => {
       case "About":
         scroller("Profile")
         break;
-      case "Contact":
-        scroller("Contact")
-        break;
+      // case "Contact":
+      //   scroller("Contact")
+      //   break;
       case "Portfolio":
         scroller("Highlights")
         break;
@@ -48,7 +48,7 @@ export const Topnav = (props) => {
               <NavLink onClick={e => handleScroll("Resume")}>Resume</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={e => handleScroll("Contact")}>Contact</NavLink>
+              <NavLink href="mailto:dstewart88@gmail.com?Subject=Hello%20Devin!" target="_top">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
