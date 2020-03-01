@@ -5,6 +5,8 @@ import '../styles.css';
 
 export const Topnav = (props) => {
 
+  const Resume = require('../assets/Devin_Stewart_Resume.pdf')
+
   const handleScroll = (ele) => {
     const scroller = (id) => {
       document.getElementById(id).scrollIntoView({behavior:"smooth"});
@@ -13,14 +15,8 @@ export const Topnav = (props) => {
       case "About":
         scroller("Profile")
         break;
-      // case "Contact":
-      //   scroller("Contact")
-      //   break;
       case "Portfolio":
         scroller("Highlights")
-        break;
-      case "Resume":
-        alert("No Resume link just yet!")
         break;
       default:
         break;
@@ -45,7 +41,7 @@ export const Topnav = (props) => {
               <NavLink onClick={e => handleScroll("Portfolio")}>Portfolio</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={e => handleScroll("Resume")}>Resume</NavLink>
+              <NavLink href={Resume} target='_blank'>Resume</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="mailto:dstewart88@gmail.com?Subject=Hello%20Devin!" target="_top">Contact</NavLink>
