@@ -18,6 +18,9 @@ export const Topnav = (props) => {
       case "Portfolio":
         scroller("Highlights")
         break;
+      case "Skills":
+        scroller("Skills")
+        break;
       default:
         break;
     }
@@ -39,6 +42,9 @@ export const Topnav = (props) => {
             </NavItem>
             <NavItem>
               <NavLink onClick={e => handleScroll("Portfolio")}>Portfolio</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink onClick={e => handleScroll("Skills")}>Skills</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href={Resume} target='_blank'>Resume</NavLink>

@@ -29,7 +29,7 @@ export const Dashboard = props => {
           <Highlights />
         </Row>
         <br></br>
-        <Row className="main2" id='Portfolio'>
+        <Row className="main2" id='Skills'>
           <Portfolio />
         </Row>            
         {/* <Row className="main2" id='Contact'>
