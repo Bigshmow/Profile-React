@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Row, Col, Card, CardImg, CardText, CardBody, CardLink,
+import { Row, Col, Card, CardText, CardBody, CardLink,
     CardTitle, CardSubtitle } from 'reactstrap';
 import '../styles.css';
 
@@ -16,8 +16,15 @@ export const Highcard = props => (
                         </CardTitle>
                     </CardBody>
                 </Col>
-                <Col xs='12' className='text-center'>
-                    <a href={props.link}> <img className='highImg' src={props.src} alt='Project'></img></a>
+                <Col xs='12' className='d-flex justify-content-center'>
+                <CardLink href={props.link}>
+                <Card className='highImg' alt='Project' style={{ backgroundImage: `url(${props.src})`}}>
+                     <div className='technologies'>
+                        <h1 className="techHead text-center">Technologies: </h1>
+                        <p className="techText text-center">{props.tech}</p>
+                     </div>
+                </Card>
+                </CardLink>
                 </Col>
                 <Col xs='12' className='text-center'>
                     <CardBody>

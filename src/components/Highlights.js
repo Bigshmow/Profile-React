@@ -20,6 +20,7 @@ export const Highlights = props => {
                         link = {Projects[num].link}
                         git = {Projects[num].git}
                         desc = {Projects[num].desc}
+                        tech = {Projects[num].tech}
                         />
                     </Col>
                 )

@@ -3,14 +3,12 @@
   }
 
 .highImg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 180px;
     width: 240px;
     transition: width 1s, height 1s;
-  }
-
-  .highImg:hover {
-    height: 240px;
-    width: 280px;
   }
 
 .highCard {
@@ -45,15 +43,38 @@
     width: 346px;
   }
 
+  
+.technologies {
+  color: white;
+  opacity: 0;
+  transition: 0.5s;
+  height: 100%;
+  width: 100%;
+}
+
+  .technologies:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 255, 0.625);
+  }
+
+.techHead {
+  font-size: 32px;
+}
+
+.techText {
+  text-align: "left";
+  font-size: 24px;
+}
+
   @media screen and (max-width:450px){
 
-    .hiddenBig {
-      display: inherit;
-    }
-
-    .hiddenMedia {
-      display: none;
-      color: '#F2FEFF'
-    }
-    
+  .hiddenBig {
+    display: inherit;
   }
+
+  .hiddenMedia {
+    display: none;
+    color: '#F2FEFF'
+  }
+  
+}

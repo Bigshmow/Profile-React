@@ -29,7 +29,7 @@ export const Portfolio = (props) => {
         >
         </Projectcard>
           <button onClick={randNorepeat}>
-            Feeling lucky???
+            Feeling lucky???  (Click for a random project.)
           </button>
         </Col>
       </Fragment>

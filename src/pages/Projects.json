@@ -62,7 +62,8 @@
         "header": "Cart to Kitchen",
         "link": "https://zuzanav.github.io/cart-to-kitchen",
         "git": "https://github.com/Zuzanav/cart-to-kitchen ",
-        "desc": "Search for recipes, add to favorites, locate nearby stores and check off your list."
+        "desc": "Search for recipes, add to favorites, locate nearby stores and check off your list.",
+        "tech": "Jquery, Lodash, Bootstrap, Google Maps API"
     },
     {
         "alt": "LIRI",
@@ -112,7 +113,8 @@
         "header": "Plant Parenthood",
         "link": "https://plantparenthood.herokuapp.com/",
         "git": "https://github.com/ppgeyser/plant-parenthood ",
-        "desc": "Discover, manage, post to social in this plant centric app aimed at beginners."
+        "desc": "Discover, manage, post to social in this plant centric app aimed at beginners.",
+        "tech": "MongoDB, Express, React, Node, Auth0, Firebase"
     },
     {
         "alt": "Vacation Countdown",
@@ -120,7 +122,8 @@
         "header": "Vacation Countdown",
         "link": "https://vacation-countdown-shmow.herokuapp.com/",
         "git": "https://github.com/Bigshmow/Vacation-Countdown ",
-        "desc": "Mobile focused, keep track of to dos and countdown to your vacation!"
+        "desc": "Mobile focused, keep track of to dos and countdown to your vacation!",
+        "tech": "MongoDB, Express, React (Hooks), Node"
     }
 
 ]
