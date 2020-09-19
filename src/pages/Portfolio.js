@@ -19,8 +19,9 @@ export const Portfolio = (props) => {
       return (
       
       <Fragment>
-        <Col xs='12' md='12' className=''>
+        <Col xs='12' md='7' className='project'>
         <Projectcard
+        className=""
         src = {Projects[random].src}
         header = {Projects[random].header}
         link = {Projects[random].link}

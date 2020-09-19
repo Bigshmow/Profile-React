@@ -38,6 +38,10 @@
   align-items: center;
 }
 
+.navPoint {
+  cursor: pointer;
+}
+
 .projectImg {
     height: 300px;
     width: 346px;

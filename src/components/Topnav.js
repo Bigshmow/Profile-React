@@ -38,13 +38,13 @@ export const Topnav = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink onClick={e => handleScroll("About")}>About</NavLink>
+              <NavLink className="navPoint" onClick={e => handleScroll("About")}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={e => handleScroll("Portfolio")}>Portfolio</NavLink>
+              <NavLink className="navPoint" onClick={e => handleScroll("Portfolio")}>Portfolio</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={e => handleScroll("Skills")}>Skills</NavLink>
+              <NavLink className="navPoint" onClick={e => handleScroll("Skills")}>Skills</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href={Resume} target='_blank'>Resume</NavLink>

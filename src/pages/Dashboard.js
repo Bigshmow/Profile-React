@@ -1,5 +1,5 @@
 import React from 'react';
-import { Contact } from './Contact';
+// import { Contact } from './Contact';
 import { Container, Row, Col } from 'reactstrap';
 import { Highlights } from '../components/Highlights';
 import { Portfolio } from './Portfolio';
@@ -16,7 +16,7 @@ export const Dashboard = props => {
               <img className='profile' src={require("../assets/circle_profile.png")} alt='Profile' />
           </Col>
           <Col xs='12' md='6' className=''>
-            <div className='text-right hiddenMedia'>
+            <div className='text-right '>
               <h1>Hello!</h1>
               <p>You've reached the portfolio page for Devin Stewart.</p>
               <p>MERN stack developer.</p>
@@ -30,7 +30,7 @@ export const Dashboard = props => {
         </Row>
         <br></br>
         <Row className="main2" id='Skills'>
-          <Portfolio />
+          <Portfolio className=""/>
         </Row>            
         {/* <Row className="main2" id='Contact'>
           <Col xs='12' md='12' className=''>
