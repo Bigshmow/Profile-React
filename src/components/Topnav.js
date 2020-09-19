@@ -32,11 +32,11 @@ export const Topnav = (props) => {
 
   return (
     <div style={s.topnav}>
-      <Navbar className='shadow' light expand="md">
-        <NavbarBrand href="/">{'< DS >'}</NavbarBrand>
+      <Navbar className='shadow allNav' light expand="md">
+        <NavbarBrand href="/" className="Logo"><img src="https://profile-dms-pictures.s3.amazonaws.com/DS_Logo.png" style={{height:'50px'}}></img></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+          <Nav className="ml-auto hello" navbar>
             <NavItem>
               <NavLink className="navPoint" onClick={e => handleScroll("About")}>About</NavLink>
             </NavItem>

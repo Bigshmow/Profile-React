@@ -1,6 +1,29 @@
+body {
+  color:rgb(61, 61, 61);
+}
+
+.fa-github, .fa-linkedin {
+  color: #209CEE;
+}
+
+.fa-github:hover, .fa-linkedin:hover {
+  color: #966929;
+}
+
 .hello {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  color: #214258;
+}
+
+.hide {
+  background-color: white;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
 }
 
 .hiddenBig {
@@ -20,6 +43,26 @@
     max-height: 75vh;
 }
 
+.intro {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.intro-text {
+  color: rgb(61, 61, 61);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
 .cardLink {
   color: black;
 }
@@ -27,6 +70,13 @@
 .cardLink:hover {
   color: rgba(0, 0, 0, 0.802);
 }
+
+/* .Logo { */
+  /* height: 100px;
+  width: 100px; */
+  /* font-family: 'Lobster', cursive;
+  font-weight: 500; */
+/* } */
 
 .main {
   min-height: 100vh;
@@ -48,6 +98,7 @@
 }
 
 .profile {
+  position: relative;
   max-height: 300px;
   max-width: 300px;
 }
@@ -57,6 +108,16 @@
     width: 346px;
   }
 
+.slider {
+  background: #209CEE;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  z-index: 10;
+}
   
 .technologies {
   color: white;

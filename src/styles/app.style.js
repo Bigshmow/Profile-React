@@ -70,7 +70,7 @@ const handleMedia = (mq) => {
         position: 'sticky',
         top: '0',
         background: '#F2FEFF',
-        marginLeft: '-80px',
+        marginLeft: '-7px',
         zIndex: '5'
       }
   }
