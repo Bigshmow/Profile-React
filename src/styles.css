@@ -42,6 +42,11 @@
   cursor: pointer;
 }
 
+.profile {
+  max-height: 300px;
+  max-width: 300px;
+}
+
 .projectImg {
     height: 300px;
     width: 346px;

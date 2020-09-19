@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Row, Col, Card, CardText, CardBody, CardLink,
-    CardTitle, CardSubtitle } from 'reactstrap';
+    CardTitle } from 'reactstrap';
 import '../styles.css';
 
 export const Highcard = props => (

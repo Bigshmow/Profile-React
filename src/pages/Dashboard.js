@@ -13,7 +13,7 @@ export const Dashboard = props => {
       <Container>
         <Row className="main" id='Profile'>
           <Col xs='12' md='5' className='profile'>
-              <img className='profile' src={require("../assets/circle_profile.png")} alt='Profile' />
+              <img className="img-fluid z-depth-2 rounded-circle profile" src="https://profile-dms-pictures.s3.amazonaws.com/slotcanyon_UT.png" alt='profilePicture' />
           </Col>
           <Col xs='12' md='6' className=''>
             <div className='text-right '>
