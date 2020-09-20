@@ -1,19 +1,35 @@
-body {
-  color:rgb(61, 61, 61);
+.epikLink {
+  color: #387196;
+  text-decoration: none !important;
+}
+
+.epikLink:hover {
+  color: #2e5a77;
+  text-decoration: none !important;
+}
+
+.hero {
+  background-image: url("https://profile-dms-pictures.s3.amazonaws.com/profileBG.PNG");
+  background-size: cover;
+  position: sticky;
+}
+
+.hello {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #387196 !important;
+}
+
+.nav-link {
+  color:#387196;
 }
 
 .fa-github, .fa-linkedin {
   color: #209CEE;
 }
 
-.fa-github:hover, .fa-linkedin:hover {
-  color: #966929;
-}
-
-.hello {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color: #214258;
+.nav-link:hover {
+  color:#E3B16B;
 }
 
 .hide {
@@ -149,7 +165,7 @@ body {
 
   .hiddenMedia {
     display: none;
-    color: '#F2FEFF'
+    color: '#F2FEFF';
   }
   
 }

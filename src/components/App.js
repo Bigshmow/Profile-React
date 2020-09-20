@@ -17,6 +17,7 @@ export default function App() {
   return (
     <>
       <ProfileIntro>
+        <div className='hero'>
         <Topnav />
         <div className='slide' style={s.slide}>
         <Sidebar />
@@ -28,6 +29,7 @@ export default function App() {
               <Route exact path="/resume" component={Resume} />
               <Route component={PageNotFound} />
           </Switch>
+        </div>
         </div>
       </ProfileIntro>
     </>

@@ -21,7 +21,7 @@ export const Dashboard = props => {
               <h1>Hello!</h1>
               <p>You've reached the portfolio page for Devin Stewart.</p>
               <p>MERN stack developer.</p>
-              <i>(part-time mountainbiker and car enthusiast)</i>
+              <i>(currently on contract with <a href="https://www.epik.ai/" className="epikLink">Epik AI</a>)</i>
             </div>
           </Col>
         </Row>

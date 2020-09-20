@@ -21,7 +21,8 @@ const handleMedia = (mq) => {
 
     s.slide = {
       position: 'static',
-      background: '#F2FEFF',
+      backgroundImg: 'url("https://profile-dms-pictures.s3.amazonaws.com/profileBG.PNG")',
+      backgroundSize: 'cover',
       color: '#09121D',
       fontFamily: 'Gill Sans, sans-serif',
       fontSize: '16px',
@@ -43,7 +44,8 @@ const handleMedia = (mq) => {
 
     s.slide = {
       position: 'static',
-      background: '#F2FEFF',
+      backgroundImg: 'url("https://profile-dms-pictures.s3.amazonaws.com/profileBG.PNG")',
+      backgroundSize: 'cover',
       color: '#09121D',
       fontFamily: 'Gill Sans, sans-serif',
       fontSize: '16px',
@@ -58,7 +60,6 @@ const handleMedia = (mq) => {
         width: '80px',
         top: '0',
         left: '0',
-        background: '#F2FEFF',
         overflowX: 'hidden', /* Disable horizontal scroll */
         display: 'flex',
         flexDirection: 'column',
