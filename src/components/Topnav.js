@@ -32,7 +32,7 @@ export const Topnav = (props) => {
 
   return (
     <div style={s.topnav}>
-      <Navbar className='shadow allNav' expand="md">
+      <Navbar className=' allNav' expand="md">
         <NavbarBrand href="/" className="Logo"><img src="https://profile-dms-pictures.s3.amazonaws.com/DS_Logo.png" style={{height:'50px'}} alt="DS_Logo"></img></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
