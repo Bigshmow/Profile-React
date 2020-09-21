@@ -23,10 +23,10 @@ export const ProfileIntro = (props) => {
             <div className="intro">
                 <div className="intro-text">
                     <h1 className="hide text-center">
-                        <span className="text first"><img src="https://profile-dms-pictures.s3.amazonaws.com/DS_Logo.png" alt="DS_Logo"></img></span>
+                        <span className="text first"><img src="https://profile-dms-pictures.s3.amazonaws.com/DS_Fav.png" alt="DS_Logo"></img></span>
                     </h1>
-                    <h1 className="hide">
-                        <span className="text text-center">Engineering Big Ideas</span>
+                    <h1 className="hide text-center">
+                        <span className="text">Engineering Ideas</span>
                     </h1>
                     <h1 className="hide text-center">
                         <span className="text">Into Web Applications</span>

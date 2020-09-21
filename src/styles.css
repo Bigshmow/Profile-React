@@ -1,9 +1,9 @@
 .allNav {
-  border-bottom: #FA5 solid 5px;
+  border-bottom: #ffaa55 solid 3px;
 }
 
 .epikLink {
-  color: #387196;
+  color: #1C8DB0;
   text-decoration: none !important;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .hero {
-  background-image: url("https://profile-dms-pictures.s3.amazonaws.com/profileBG.PNG");
+  /* background-image: url("https://profile-dms-pictures.s3.amazonaws.com/profileBG.PNG"); */
   background-size: cover;
   position: sticky;
 }
@@ -21,19 +21,19 @@
 .hello {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #387196 !important;
+  color: #1C8DB0 !important;
 }
 
 .nav-link {
-  color:#387196;
+  color:#1C8DB0;
 }
 
 .fa-github, .fa-linkedin {
-  color: #209CEE;
+  color: #5BD6FC;
 }
 
 .nav-link:hover {
-  color:#E3B16B;
+  color:#FFAA55;
 }
 
 .hide {
@@ -129,7 +129,7 @@
   }
 
 .slider {
-  background: #209CEE;
+  background: #5BD6FC;
   position: fixed;
   top: 0;
   left: 0;
@@ -159,6 +159,10 @@
 .techText {
   text-align: "left";
   font-size: 24px;
+}
+
+.text {
+  color: #1C8DB0;
 }
 
   @media screen and (max-width:450px){
